@@ -1,8 +1,6 @@
 # dev.finances
 
-## Sobre
-
-O dev.finance$ é um projeto do curso maratona Discover da Rocketseat, para controle de finanças.
+Projeto do curso maratona Discover da Rocketseat, para controle de finanças.
 
 ## Tarefas
 
