@@ -1,4 +1,4 @@
-# dev.finance$
+# dev.finances
 
 ## Sobre
 
@@ -7,7 +7,5 @@ O dev.finance$ é um projeto do curso maratona Discover da Rocketseat, para cont
 ## Licença
 
 Este projeto está sob licença [MIT](./LICENSE).
-
----
 
 Feito com 💜 por Lohana Torres.
