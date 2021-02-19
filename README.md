@@ -4,12 +4,12 @@ Projeto do curso maratona Discover da Rocketseat, para controle de finanças.
 
 ## Tarefas
 
-### 01 - Assistir aos cursos
+### 01 - Assistir aos cursos/aulas
 
 - [x] Guia estelar de programação
 - [x] Ambiente dev de outro mundo
 
-### 02 - Assistir aos cursos
+### 02 - Assistir aos cursos/aulas
 
 #### Revisão
 
