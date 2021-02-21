@@ -7,7 +7,7 @@ const Modal = {
 
 const Storage = {
   get() {
-    return JSON.parse(localStorage.getItem("dev.finances:transaction")) || [];
+    return JSON.parse(localStorage.getItem("dev.finances:transactions")) || [];
   },
 
   set(transactions) {
@@ -18,7 +18,7 @@ const Storage = {
   },
 };
 
-const transactions = [];
+/* const transactions = []; */
 
 const Transaction = {
   all: Storage.get(),
