@@ -18,8 +18,6 @@ const Storage = {
   },
 };
 
-/* const transactions = []; */
-
 const Transaction = {
   all: Storage.get(),
 
@@ -124,8 +122,8 @@ const Utils = {
   },
 
   formatAmount(value) {
-    value = Number(value.replace(/\,\./g, "")) * 100;
-    return value;
+    value *= 100;
+    return Math.round(value);
   },
 
   formatDate(date) {
