@@ -5,26 +5,23 @@ const Modal = {
   },
 };
 
-const transactions = [
-  {
-    description: "Luz",
-    amount: -50000,
-    date: "23/01/2021",
+const Storage = {
+  get() {
+    return JSON.parse(localStorage.getItem("dev.finances:transaction")) || [];
   },
-  {
-    description: "Criação de Website",
-    amount: 500000,
-    date: "23/01/2021",
+
+  set(transactions) {
+    localStorage.setItem(
+      "dev.finances:transactions",
+      JSON.stringify(transactions)
+    );
   },
-  {
-    description: "Internet",
-    amount: -20000,
-    date: "23/01/2021",
-  },
-];
+};
+
+const transactions = [];
 
 const Transaction = {
-  all: transactions,
+  all: Storage.get(),
 
   add(transaction) {
     Transaction.all.push(transaction);
@@ -211,9 +208,13 @@ const App = {
     Transaction.all.forEach(DOM.addTransaction);
 
     DOM.updateBalance();
+
+    Storage.set(Transaction.all);
   },
+
   reload() {
     DOM.clearTransactions();
+
     App.init();
   },
 };
