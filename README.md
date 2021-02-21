@@ -2,6 +2,8 @@
 
 Projeto do curso maratona Discover da Rocketseat, para controle de finanças.
 
+Acesse a aplicação: https://heyloh.github.io/dev.finances/
+
 <!-- ## Tarefas
 
 ### 01 - Assistir aos cursos/aulas
