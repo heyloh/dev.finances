@@ -1,4 +1,8 @@
-# dev.finances
+<h1 align="center" >
+  <img alt="dev.finances" title="dev.finances" src="./assets/logo.svg" />
+</h1>
+
+## Sobre
 
 Projeto do curso maratona Discover da Rocketseat, para controle de finanças.
 
